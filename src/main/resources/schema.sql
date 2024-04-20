@@ -1,0 +1,16 @@
+CREATE TABLE Ticket (
+     id INTEGER AUTO_INCREMENT NOT NULL,
+     movies VARCHAR(255) NOT NULL,
+     number VARCHAR(255) NOT NULL,
+     fname VARCHAR(255) NOT NULL,
+     sname  VARCHAR(255) NOT NULL,
+     tel  VARCHAR(255) NOT NULL,
+     email  VARCHAR(255) NOT NULL,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE Movies (
+    id INTEGER AUTO_INCREMENT NOT NULL,
+    movies VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
