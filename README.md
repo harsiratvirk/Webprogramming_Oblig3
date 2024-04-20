@@ -3,12 +3,15 @@ OsloMet username: hakau9101
 
 GitHub username: harsiratvirk
 
-Github repo URL: https://github.com/harsiratvirk/WebProgramming_Oblig2
+Github repo URL: https://github.com/harsiratvirk/Webprogramming_Oblig3
 
 Full Name: Harsirat Kaur
 
 Brief description of application:
 
-A Spring Boot project that provides a form for ordering cinema tickets. The user selects a film, the number of tickets and leaves personal details to get one or more cinema tickets returned. Additionally, the user has the option to delete all tickets. The application validates all inputs, with some validations utilizing regex.
-
+This Spring Boot project provides a form for ordering cinema tickets. Users can select a film, 
+the number of tickets and provide personal details to receive cinema ticket(s). 
+The list of tickets are stored in a H2 in-memory database and is sorted by last name.
+Additionally, users have the option to delete all tickets.
+The application validates all inputs, with some validations utilizing regex.
 The client-side interface is styled using Bootstrap.
